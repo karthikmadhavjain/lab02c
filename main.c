@@ -25,8 +25,6 @@ int main(void){
   else if (grade >= 70.00){letter_grade = "C";}
   else if (grade >= 60.00){letter_grade = "D";}
   else if (grade < 60.00){letter_grade = "F";}
-
-  return(grade);
   
-  printf("Your letter grade for CMPSC 131 is %f.",grade);
+  printf("\nYour letter grade for CMPSC 131 is %f.",grade);
 }
