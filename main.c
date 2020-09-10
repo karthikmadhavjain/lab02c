@@ -6,7 +6,6 @@
 //Breakout room number:
 
 
-#include <stdio.h>
 #include<readline/readline.h>
 #include<stdlib.h>
 
@@ -26,5 +25,5 @@ int main(void){
   else if (grade >= 60.00){letter_grade = "D";}
   else if (grade < 60.00){letter_grade = "F";}
   
-  printf("\nYour letter grade for CMPSC 131 is %s.\n",letter_grade);
+  printf("Your letter grade for CMPSC 131 is %s.\n",letter_grade);
 }
